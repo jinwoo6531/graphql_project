@@ -9,8 +9,7 @@ module.exports = {
     register(
       _,
       { registerInput: { username, email, password, confirmPassword } },
-      context,
-      info
+      
     ) {
       // TODO: Validate user Data
       // TODO: Make sure user doesnt already exist
